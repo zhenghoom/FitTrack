@@ -1,16 +1,20 @@
 # fit_track
 
-A new Flutter project.
+FitTrack is a fitness application designed to guide users through their fitness journey with ease and efficiency. Whether you are a beginner feeling overwhelmed by gym equipment or a seasoned fitness enthusiast looking for structured workouts and diet recommendations, FitTrack provides personalized solutions to meet your needs.
 
-## Getting Started
+# Modules
+## Authentication Module
+User is able to register an account and sign in to the application with their email address and password.
 
-This project is a starting point for a Flutter application.
+## Home Module
+Workouts are categorized by body parts, allowing users to search and select workouts.
 
-A few resources to get you started if this is your first Flutter project:
+## Diet Module
+Based on the weight class from BMI calculations, diet for each class are recommended through list of food categories and food examples.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## BMI Calculator
+User can calculate their BMI by entering their weight(kg) and height(cm) to understand their body metrics.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Profile Module
+User can view and edit their personal information through the page. 
+
